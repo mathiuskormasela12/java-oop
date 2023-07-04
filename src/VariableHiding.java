@@ -14,7 +14,7 @@ public class VariableHiding {
         // Akan mengeksekusi method sayHello dari child class, karena hal ini adalah method overriding
         viviz2.sayHello();
 
-        // Akan menampilkan property name dari parent class, karena tidak ada yg namanya variable/property hiding
+        // Akan menampilkan property name dari parent class, karena tidak ada yg namanya variable/property overriding
         // ada nya yg nama nya varibale hiding, dimana ada parameter method yg nama nya sama dengan property class
         // baik dri class child atau class parent.
         System.out.println(viviz2.name);
